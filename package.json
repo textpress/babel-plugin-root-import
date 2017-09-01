@@ -1,15 +1,15 @@
 {
-  "name": "babel-plugin-root-import",
-  "version": "5.1.0",
+  "name": "@textpress/babel-plugin-root-import",
+  "version": "5.1.2",
   "description": "Babel Plugin to enable relative root-import",
-  "author": "Michael J. Zoidl <github@michaelzoidl.com>",
+  "contributors": [ "Aleksey Gurtovoy <agurtovoy@acm.org>", "Michael J. Zoidl <github@michaelzoidl.com>" ],
   "license": "MIT",
   "main": "index.js",
   "files": [
     "index.js",
     "build"
   ],
-  "repository": "entwicklerstube/babel-plugin-root-import",
+  "repository": "textpress/babel-plugin-root-import",
   "scripts": {
     "test": "mocha test/*.spec.js --require config/mocha.js --compilers js:babel-core/register",
     "test-watch": "mocha test/*.spec.js --require config/mocha.js --compilers js:babel-core/register --watch",
